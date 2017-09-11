@@ -1,0 +1,18 @@
+#card1{
+    background-image: url("../img/cards2.png");
+    background-position: left top 7.7%;
+    width: 140px;
+    height: 190px;
+}
+#card2{
+    background-image: url("../img/cards2.png");
+    background-position: left top 38.45%;
+    width: 140px;
+    height: 190px;
+}
+#card3{
+    background-image: url("../img/cards2.png");
+    background-position: left bottom 7.7%;
+    width: 140px;
+    height: 190px;
+}
