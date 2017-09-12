@@ -1,18 +1,32 @@
-#card1{
-    background-image: url("../img/cards2.png");
-    background-position: left top 7.7%;
+.cards {
+    background-image: url(../img/cards2.png);
+    background-repeat: no-repeat;
     width: 140px;
     height: 190px;
 }
-#card2{
-    background-image: url("../img/cards2.png");
-    background-position: left top 38.45%;
-    width: 140px;
-    height: 190px;
+
+.k {
+    background-position-x: -144px;
 }
-#card3{
-    background-image: url("../img/cards2.png");
-    background-position: left bottom 7.7%;
-    width: 140px;
-    height: 190px;
+
+.p {}
+
+.b {
+    background-position-x: -288px;
+}
+
+.c {
+    background-position-x: -432px;
+}
+
+._3 {
+    background-position-y: -191px;
+}
+
+._7 {
+    background-position-y: -967px;
+}
+
+.ace {
+    background-position-y: -2325px;
 }
