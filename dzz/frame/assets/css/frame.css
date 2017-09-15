@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.text {
+    padding: 50px;
+    font-size: 14pt;
+    font-family: 'Lobster', cursive;
+
+}
+
+.left {
+    background-image: url(../img/left.png);
+    background-repeat: repeat-y;
+
+}
+
+.top_left {
+    background-image: url(../img/right_top.png);
+    background-repeat: no-repeat;
+
+}
+
+.right_bottom {
+    background-image: url(../img/right_bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.top {
+    background-image: url(../img/top.png);
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.top_right {
+    background-image: url(../img/left_top.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+.left_bottom {
+    background-image: url(../img/left_bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.right {
+    background-image: url(../img/right.png);
+    background-repeat: repeat-y;
+    background-position: right;
+
+}
+
+.bottom {
+    background-image: url(../img/bottom.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}

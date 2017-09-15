@@ -1,0 +1,18 @@
+.l {
+    margin-left: -12px;
+}
+
+.r {
+    margin-right: -12px;
+    text-align: right;
+
+}
+
+.ll {
+    margin-left: -24px;
+}
+
+.rr {
+    margin-right: -24px;
+    text-align: right;
+}
