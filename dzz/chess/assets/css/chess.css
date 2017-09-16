@@ -1,0 +1,176 @@
+.col {
+    position: relative;
+    top: 8px;
+    width: 50px;
+    height: 500px;
+}
+
+.cell {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    text-align: center;
+}
+
+.cell_1 {
+
+    top: 0px;
+
+}
+
+.cell_2 {
+
+    top: 50px;
+
+}
+
+.cell_3 {
+
+    top: 100px;
+
+}
+
+.cell_4 {
+
+    top: 150px;
+
+}
+
+.cell_5 {
+
+    top: 200px;
+
+}
+
+.cell_6 {
+
+    top: 250px;
+
+}
+
+.cell_7 {
+
+    top: 300px;
+
+}
+
+.cell_8 {
+
+    top: 350px;
+
+}
+
+.cell_9 {
+
+    top: 400px;
+
+}
+
+.cell_10 {
+
+    top: 450px;
+
+}
+
+.col_1 {
+    top: 0px;
+}
+
+.col_2 {
+
+    left: 50px;
+    top: -500px;
+    width: 50px;
+
+}
+
+.col_3 {
+
+    left: 100px;
+    top: -1000px;
+}
+
+.col_4 {
+
+    left: 150px;
+    top: -1500px;
+}
+
+.col_5 {
+
+    left: 200px;
+    top: -2000px;
+}
+
+.col_6 {
+
+    left: 250px;
+    top: -2500px;
+}
+
+.col_7 {
+
+    left: 300px;
+    top: -3000px;
+}
+
+.col_8 {
+    left: 350px;
+    top: -3500px;
+}
+
+.col_9 {
+
+    left: 400px;
+    top: -4000px;
+}
+
+.col_10 {
+
+    left: 450px;
+    top: -4500px;
+}
+
+.black {
+    background-color: grey;
+}
+
+
+.figure {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+
+}
+
+.white {
+    background-position-y: -50px;
+}
+
+.dark {
+    background-position-y: 0px;
+}
+
+.lod {
+    background-position-x: -100px;
+}
+
+.horse {
+    background-position-x: -210px;
+}
+
+.slon {
+    background-position-x: -154px;
+}
+
+.carol {
+    background-position-x: 7px;
+}
+
+.queen {
+    background-position-x: -47px;
+}
+
+.peshka {
+    background-position-x: -260px;
+}
