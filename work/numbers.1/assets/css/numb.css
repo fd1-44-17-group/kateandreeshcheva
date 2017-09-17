@@ -1,0 +1,25 @@
+.width {
+    width: 24px;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 8px;
+}
+
+.m_left_8 {
+    margin-left: 8px;
+}
+
+.m_left_16 {
+    margin-left: 16px;
+}
+
+.m_left__8 {
+    margin-left: -8px;
+}
+
+.m_left__16 {
+    margin-left: -16px;
+}
