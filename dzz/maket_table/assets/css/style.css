@@ -1,0 +1,68 @@
+.header,
+.footer {
+    background-color: rgb(160, 200, 255);
+    text-align: center;
+    height: 50px;
+    font-size: 18pt;
+    font-variant: small-caps;
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: rgb(255, 255, 110);
+    width: 200px;
+    height: auto;
+    vertical-align: top;
+}
+
+.content {
+    padding: 20px;
+    background-image: url(../img/2.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    vertical-align: top;
+}
+
+.img {
+    float: left;
+    padding-right: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+.unvisible {
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    .menu {
+        display: none;
+    }
+    .unvisible {
+        display: inherit;
+        width: inherit;
+    }
+
+    li {
+        float: left;
+        display: block;
+    }
+
+    li:before {
+        content: '⋮';
+        padding-left: 5px;
+    }
+}

@@ -1,0 +1,62 @@
+.name {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.information {
+    color: blue;
+    font-style: italic;
+
+}
+
+.date_of_brth {
+    color: green;
+}
+
+.chempion {
+    font-weight: bold;
+    color: red;
+}
+
+@media screen and (min-width:800px) {
+    .first {
+        width: 33%;
+        height: auto;
+        display: block;
+        float: left;
+        position: absolute;
+        left: 0%;
+
+    }
+}
+
+@media screen and (min-width:800px) {
+    .second {
+        width: 33%;
+        height: auto;
+        display: block;
+        float: left;
+        position: absolute;
+        left: 33%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .three {
+        width: 33%;
+        height: auto;
+        display: block;
+        float: right;
+
+    }
+}
+
+@media screen and (min-width:800px) {
+    .clear {
+        clear: both;
+        display: block;
+        position: relative;
+        left: -99%;
+
+    }
+}
