@@ -24,7 +24,6 @@
         height: auto;
         display: block;
         float: left;
-        position: absolute;
         left: 0%;
 
     }
@@ -36,8 +35,6 @@
         height: auto;
         display: block;
         float: left;
-        position: absolute;
-        left: 33%;
     }
 }
 
