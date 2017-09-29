@@ -1,0 +1,20 @@
+.foto{
+    margin: 200px;
+    width: 200px;
+    height: 220px;
+    background-image: url(../img/3.png);
+    transform: rotate(30deg);
+    position: absolute;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.foto:after{
+    content: "блаблабла";
+    display: block;
+    position: relative;
+    top: 240px;
+
+
+    
+}
