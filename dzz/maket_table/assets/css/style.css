@@ -1,24 +1,23 @@
 .header,
 .footer {
-    background-color: rgb(160, 200, 255);
+    background-color: rgb(160, 200, 235);
     text-align: center;
     height: 50px;
-    font-size: 18pt;
+    font-size: 20pt;
     font-variant: small-caps;
     color: rgb(0, 0, 255);
-    font-weight: bold;
     font-family: sans-serif;
 }
 
 .menu {
-    background-color: rgb(255, 255, 110);
+    background-color: rgb(235, 230, 130);
     width: 200px;
     height: auto;
     vertical-align: top;
 }
 
 .content {
-    padding: 20px;
+    padding: 0px 20px 0;
     background-image: url(../img/2.png);
     background-repeat: repeat-y;
     background-position: right;
@@ -27,7 +26,13 @@
 
 .img {
     float: left;
-    padding-right: 20px;
+    margin-right: 20px;
+    width: 180px;
+    height: 120px;
+    background-image: url(../img/football.png);
+    background-position-x: -208px;
+    background-position-y: -110px;
+
 }
 
 .table {
@@ -36,7 +41,7 @@
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 body {
@@ -47,22 +52,16 @@ body {
     display: none;
 }
 
+h5 {
+    text-align: center;
+}
+
 @media screen and (max-width:400px) {
     .menu {
         display: none;
     }
     .unvisible {
-        display: inherit;
-        width: inherit;
-    }
-
-    li {
-        float: left;
         display: block;
-    }
-
-    li:before {
-        content: '⋮';
-        padding-left: 5px;
+        width: inherit;
     }
 }

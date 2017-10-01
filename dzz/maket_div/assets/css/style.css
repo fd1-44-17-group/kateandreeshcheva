@@ -1,23 +1,31 @@
 .header,
 .footer {
-    background-color: rgb(160, 200, 255);
+    background-color: rgb(160, 200, 235);
     text-align: center;
     height: 50px;
-    font-size: 18pt;
+    font-size: 20pt;
     font-variant: small-caps;
     color: rgb(0, 0, 255);
-    font-weight: bold;
     font-family: sans-serif;
     clear: both;
-
 }
 
-h5 {
+ul {
+    padding-left: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+h4 {
     margin: 0px;
 }
 
 .menu {
-    background-color: rgb(255, 255, 110);
+    background-color: rgb(235, 230, 130);
     width: 200px;
     position: absolute;
     top: 0px;
@@ -35,21 +43,16 @@ h5 {
 
 .img {
     float: left;
-    padding-right: 20px;
-}
-
-
-ul {
-    padding-left: 20px;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
+    margin: 10px 20px 10px 0;
+    width: 180px;
+    height: 120px;
+    background-image: url(../img/football.png);
+    background-position-x: -208px;
+    background-position-y: -110px;
 }
 
 .cont_menu {
-    min-height: 300px;
+    min-height: 280px;
     position: relative;
 }
 
@@ -57,9 +60,17 @@ body {
     .menu {
         position: static;
         width: auto;
+        margin-bottom: 0;
     }
     .content {
         margin-left: 0;
         min-width: inherit;
     }
+
+    .header,
+    .footer {
+        height: auto;
+    }
+
+
 }
