@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(140, 190, 140);
+}
+
+.circle {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+    background-color: rgb(250, 170, 0);
+}
+
+.circle:before {
+    display: block;
+    content: "";
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    top: 7.5vw;
+    left: 7.5vw;
+    border-radius: 100%;
+
+}
