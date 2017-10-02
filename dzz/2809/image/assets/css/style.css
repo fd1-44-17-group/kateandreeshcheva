@@ -1,0 +1,81 @@
+.img {
+    border: 1px solid rgb(200, 200, 200);
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    transform: rotate(20deg);
+    margin: 100px 0 0 200px;
+
+}
+
+.foto {
+    width: 190px;
+    height: 220px;
+    background-image: url(../img/1.jpg);
+    background-size: 100%;
+    margin: 5px 10px 0 5px;
+    position: absolute;
+}
+
+.foto:after {
+    content: "Катя, 21 год";
+    display: block;
+    position: relative;
+    top: 240px;
+    padding-left: 20px;
+}
+
+
+.cloud {
+    width: 200px;
+    height: auto;
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    border-radius: 10px;
+}
+
+.cloud:before {
+    content: "У меня хватает желания и терпения сидеть в субботу вечером и верстать. Спасибо мне.";
+    display: block;
+    font-family: cursive;
+    padding: 5px;
+
+}
+
+.cloud:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    border-top: 20px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 20px solid rgb(220, 220, 220);
+}
+
+.frame {
+    position: absolute;
+    width: 450px;
+    height: 420px;
+}
+
+.frame:before,
+.frame:after {
+    content: "";
+    display: block;
+    border-right: 4px solid rgb(70, 100, 255);
+    border-bottom: 4px solid rgb(70, 100, 255);
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+
+.frame:before {
+    left: 40px;
+    transform: rotate(135deg);
+}
