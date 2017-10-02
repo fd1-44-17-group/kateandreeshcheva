@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/wall.png);
+    width: 100vw;
+    height: 100vh;
+}
+
+.text {
+    width: 400px;
+    height: 65px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 40pt;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+}
+
+.x_letter {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 252px;
+    top: 5px;
+}
+
+.square1 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.square2 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.square3 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.square4 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.square5 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}
