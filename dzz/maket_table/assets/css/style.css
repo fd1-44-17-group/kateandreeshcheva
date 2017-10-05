@@ -1,0 +1,67 @@
+.header,
+.footer {
+    background-color: rgb(160, 200, 235);
+    text-align: center;
+    height: 50px;
+    font-size: 20pt;
+    font-variant: small-caps;
+    color: rgb(0, 0, 255);
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: rgb(235, 230, 130);
+    width: 200px;
+    height: auto;
+    vertical-align: top;
+}
+
+.content {
+    padding: 0px 20px 0;
+    background-image: url(../img/2.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    vertical-align: top;
+}
+
+.img {
+    float: left;
+    margin-right: 20px;
+    width: 180px;
+    height: 120px;
+    background-image: url(../img/football.png);
+    background-position-x: -208px;
+    background-position-y: -110px;
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+.unvisible {
+    display: none;
+}
+
+h5 {
+    text-align: center;
+}
+
+@media screen and (max-width:400px) {
+    .menu {
+        display: none;
+    }
+    .unvisible {
+        display: block;
+        width: inherit;
+    }
+}

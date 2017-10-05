@@ -1,0 +1,76 @@
+.header,
+.footer {
+    background-color: rgb(160, 200, 235);
+    text-align: center;
+    height: 50px;
+    font-size: 20pt;
+    font-variant: small-caps;
+    color: rgb(0, 0, 255);
+    font-family: sans-serif;
+    clear: both;
+}
+
+ul {
+    padding-left: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(235, 230, 130);
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    background-image: url(../img/2.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    min-width: 350px;
+}
+
+.img {
+    float: left;
+    margin: 10px 20px 10px 0;
+    width: 180px;
+    height: 120px;
+    background-image: url(../img/football.png);
+    background-position-x: -208px;
+    background-position-y: -110px;
+}
+
+.cont_menu {
+    min-height: 280px;
+    position: relative;
+}
+
+@media screen and (max-width:400px) {
+    .menu {
+        position: static;
+        width: auto;
+        margin-bottom: 0;
+    }
+    .content {
+        margin-left: 0;
+        min-width: inherit;
+    }
+
+    .header,
+    .footer {
+        height: auto;
+    }
+
+
+}
