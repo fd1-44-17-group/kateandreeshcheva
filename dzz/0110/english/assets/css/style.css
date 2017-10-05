@@ -1,0 +1,71 @@
+.img {
+    width: 100px;
+    height: 140px;
+    background-color: grey;
+    float: left;
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 100px;
+    width: 450px;
+    background-color: rgb(242, 242,
+    242);
+}
+
+#top:before {
+    content: "list-english";
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(0, 120, 200);
+    font-size: 18pt;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+}
+
+#top:after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 5px;
+    position: absolute;
+    background-color: rgb(0, 120, 200);
+    top: 45px;
+    left: 255px;
+}
+
+#list:before {
+    content: "список ресурсов для изучения английского языка";
+    display: block;
+    width: 230px;
+    height: 30px;
+    background-color: rgb(200, 12, 20);
+    font-size: 10pt;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+
+#list:after {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 5px;
+    position: absolute;
+    background-color: rgb(200, 12, 20);
+    top: 105px;
+    left: 335px;
+}
