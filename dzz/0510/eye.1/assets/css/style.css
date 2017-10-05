@@ -1,0 +1,13 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(140, 190, 140);
+}
+
+.circle {
+    width: 30vw;
+    height: 30vw;
+    box-shadow: inset 0vw 0vh 0vw 8vw rgb(250, 170, 0);
+    border-radius: 30vw;
+    background-color: black;
+}
