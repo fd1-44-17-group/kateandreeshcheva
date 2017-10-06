@@ -1,0 +1,16 @@
+div {
+    width: 250px;
+    height: 250px;
+}
+
+#item1:checked~div {
+    background-color: red;
+}
+
+#item2:checked~div {
+    background-color: green;
+}
+
+#item3:checked~div {
+    background-color: blue;
+}
