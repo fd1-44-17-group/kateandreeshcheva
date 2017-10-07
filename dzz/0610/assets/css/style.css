@@ -1,0 +1,151 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ball {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    border: 0.5vw solid black;
+    border-radius: 6vw;
+    animation: go-left-right 3s infinite alternate ease;
+    background-color: black;
+}
+
+.shadow {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 6vw;
+    animation: shadow 3s infinite alternate ease;
+}
+
+@keyframes shadow {
+
+    0% {
+        left: 5vw;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 0px -10vw rgba(0, 0, 0, 1);
+        transform: skew(-40deg);
+    }
+
+    20% {
+        bottom: 5vh;
+        left: 25vw;
+        transform: skew(-10deg);
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10vw rgba(0, 0, 0, 0.4);
+    }
+
+    25% {
+        bottom: 5vh;
+        left: 25vw;
+        transform: skew(-10deg);
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10vw rgba(0, 0, 0, 0.4);
+    }
+
+
+    40% {
+        left: 40vw;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 0px -10vw rgba(0, 0, 0, 1);
+        transform: skew(-40deg);
+    }
+
+    60% {
+        bottom: 5vh;
+        left: 55vw;
+        transform: skew(-10deg);
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10vw rgba(0, 0, 0, 0.4);
+    }
+
+    65% {
+        bottom: 5vh;
+        left: 55vw;
+        transform: skew(-10deg);
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10vw rgba(0, 0, 0, 0.4);
+    }
+
+    80% {
+        bottom: 0;
+        left: 75vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 0px -10vw rgba(0, 0, 0, 1);
+        transform: skew(-40deg);
+
+    }
+
+    100% {
+        bottom: 5vh;
+        left: 89vw;
+        transform: skew(-10deg);
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10vw rgba(0, 0, 0, 0.4);
+    }
+}
+
+@keyframes go-left-right {
+    0% {
+        left: 0vw;
+        bottom: 0;
+        height: 8vw;
+    }
+
+    3% {
+        height: 10vw;
+    }
+
+    20% {
+        bottom: 30vh;
+        left: 20vw;
+    }
+    25% {
+        bottom: 31vh;
+        left: 21vw;
+    }
+    37% {
+        height: 10vw;
+    }
+    40% {
+        left: 35vw;
+        bottom: 0;
+        height: 8vw;
+    }
+    43% {
+        height: 10vw;
+    }
+    60% {
+        bottom: 30vh;
+        left: 50vw;
+    }
+
+    65% {
+        bottom: 31vh;
+        left: 51vw;
+    }
+    77% {
+        height: 10vw;
+    }
+    80% {
+        bottom: 0;
+        left: 70vw;
+        height: 8vw;
+    }
+
+    83% {
+        height: 10vw;
+    }
+    100% {
+        bottom: 30vh;
+        left: 89vw;
+    }
+}
