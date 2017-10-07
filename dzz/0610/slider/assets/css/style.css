@@ -1,0 +1,58 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 60vw;
+    border: 0.1vw solid black;
+    position: absolute;
+}
+
+.image {
+    width: 60vw;
+    height: 50vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    position: absolute;
+}
+
+#item1:checked~div {
+    background-image: url(../img/1.jpg);
+    background-size: 100%;
+}
+
+#item2:checked~div {
+    background-image: url(../img/2.jpg);
+    background-size: 100%;
+}
+
+#item3:checked~div {
+    background-image: url(../img/3.jpg);
+    background-size: 100%;
+}
+
+.left {
+    width: 0vw;
+    height: 0vw;
+    border-bottom: 4vw solid transparent;
+    border-left: 4vw solid transparent;
+    border-right: 4vw solid green;
+    border-top: 4vw solid transparent;
+    position: absolute;
+    top: 25vw;
+}
+
+.right {
+    width: 0vw;
+    height: 0vw;
+    border-bottom: 4vw solid transparent;
+    border-left: 4vw solid green;
+    border-right: 4vw solid transparent;
+    border-top: 4vw solid transparent;
+    position: absolute;
+    top: 25vw;
+    right: 0;
+}
