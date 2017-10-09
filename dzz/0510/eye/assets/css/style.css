@@ -1,0 +1,11 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(140, 190, 140);
+}
+
+.circle {
+    width: 30vw;
+    height: 30vw;
+    background-image: radial-gradient(circle closest-side, #000 7vw, rgb(250, 170, 0) 7vw, rgb(250, 170, 0) 14vw, rgb(140, 190, 140) 14vw);
+}
