@@ -6,53 +6,83 @@ body {
 .frame {
     width: 80vw;
     margin-left: 10vw;
-    height: 60vw;
-    border: 0.1vw solid black;
-    position: absolute;
+    height: 40vw;
+    border: 0.4vw solid rgb(150, 150, 150);
+    position: relative;
+    border-radius: 10vw;
+    background-color: rgb(250, 250, 250);
 }
 
-.image {
-    width: 60vw;
-    height: 50vw;
-    margin-left: 10vw;
+.frame__image {
+    width: 50vw;
+    height: 28vw;
+    margin-left: 15vw;
     margin-top: 5vw;
     position: absolute;
+    border: 1.1vw solid rgb(100, 100, 100);
+    border-radius: 1vw;
 }
 
-#item1:checked~div {
-    background-image: url(../img/1.jpg);
-    background-size: 100%;
+.frame__image_img_max {
+    max-height: 100%;
+    max-width: 100%;
 }
 
-#item2:checked~div {
-    background-image: url(../img/2.jpg);
-    background-size: 100%;
+input+div {
+    display: none;
 }
 
-#item3:checked~div {
-    background-image: url(../img/3.jpg);
-    background-size: 100%;
+input+label,
+input+label+label {
+    display: none;
 }
 
-.left {
+input#item1 {
+    position: absolute;
+    bottom: 0;
+    left: 35vw;
+}
+
+input#item2 {
+    position: absolute;
+    bottom: 0;
+    left: 40vw;
+}
+
+input#item3 {
+    position: absolute;
+    bottom: 0;
+    left: 45vw;
+}
+
+input:checked+div {
+    display: block;
+}
+
+
+input:checked+div+label {
+    display: block;
+    content: "";
     width: 0vw;
     height: 0vw;
     border-bottom: 4vw solid transparent;
     border-left: 4vw solid transparent;
-    border-right: 4vw solid green;
+    border-right: 4vw solid rgb(100, 100, 100);
     border-top: 4vw solid transparent;
     position: absolute;
-    top: 25vw;
+    top: 15vw;
 }
 
-.right {
+input:checked+div+label+label {
+    display: block;
+    content: "";
     width: 0vw;
     height: 0vw;
     border-bottom: 4vw solid transparent;
-    border-left: 4vw solid green;
+    border-left: 4vw solid rgb(100, 100, 100);
     border-right: 4vw solid transparent;
     border-top: 4vw solid transparent;
     position: absolute;
-    top: 25vw;
+    top: 15vw;
     right: 0;
 }
