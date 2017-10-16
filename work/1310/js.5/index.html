@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var arr = [];
+        var n = arr.length;
+        while (true) {
+            var value = prompt("Введите число", "");
+            if (isNaN(parseInt(value, 10))) {
+                console.log("Данные некорректны");
+            }
+            if (!value) break;
+            arr[n] = value;
+            n++;
+        }
+        for (var i = 0; i < n; i++) {
+            console.log(arr[i]);
+        }
+    </script>
+</body>
+
+</html>

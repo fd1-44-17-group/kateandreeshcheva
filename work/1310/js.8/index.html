@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var country = {
+            Belarus: { p: "1276543mln", s: "23036540km2" },
+            Russia: { p: "146543mln", s: "89065430km2" },
+            Germany: { p: "1765433mln", s: "987656543030km2" }
+        };
+
+        var inf = prompt("");
+        if (inf == "справочник") {
+            for (var key in country) {
+                alert(key);
+            };
+        };
+        if (country[inf] == undefined && inf !== "справочник") {
+            alert("Ошибка!");
+        }
+        else {
+            alert("Население: " + country[inf].p + " Площадь: " + country[inf].s);
+        }
+    </script>
+</body>
+
+</html>

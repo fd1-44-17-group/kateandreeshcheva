@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var arr_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        var n = arr_1.length;
+        var arr_2 = [];
+        var j = 0;
+        for (var i = 0; i < n; i++) {
+            if (arr_1[i] % 2 == 0) continue;
+            arr_2[j] = arr_1[i];
+            j++;
+        }
+        alert(arr_2);
+    </script>
+</body>
+
+</html>

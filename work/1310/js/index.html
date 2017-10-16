@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var second_name = prompt("Введите фамилию:", "");
+        var first_name = prompt("Введите имя:", "");
+        var patronymic = prompt("Введите отчество:", "");
+        console.log("ФИО: " + second_name + " " + first_name + " " + patronymic);
+        for (var years = prompt("Сколько вам лет?"); years > 200 || years <= 0; years = prompt("Сколько вам лет?")) {
+            alert("Столько не живут!");
+        }
+    </script>
+</body>
+
+</html>
