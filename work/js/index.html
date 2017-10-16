@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var second_name = prompt("Введите фамилию:", "");
+        var first_name = prompt("Введите имя:", "");
+        var patronymic = prompt("Введите отчество:", "");
+        console.log("ФИО: " + second_name + " " + first_name + " " + patronymic);
+        var years = prompt("Сколько вам лет?", "");
+        if (isNaN(parseInt(years, 10))) {
+            console.log("Возраст: Данные некорректны");
+        }
+        if (years > 200) {
+            console.log("Возраст: " + years + "? " + " Столько не живут!");
+        }
+    </script>
+</body>
+
+</html>
