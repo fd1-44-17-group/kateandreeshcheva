@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ball {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    border-radius: 6vw;
+    animation: vertical 1s ease-in-out infinite, horizontal 3s linear infinite;
+    background-color: black;
+    bottom: 0;
+
+}
+
+
+@keyframes vertical {
+    0% {
+        transform: translateY(0);
+
+    }
+    50% {
+        transform: translateY(-150px);
+    }
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+@keyframes horizontal {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 90vw;
+    }
+    100% {
+        left: 0;
+    }
+}
